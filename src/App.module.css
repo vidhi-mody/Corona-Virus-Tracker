@@ -13,6 +13,10 @@ body{
     width: 370px;
     margin-top: 50px;
   }
+  a{
+    text-decoration: underline;
+    color: black;
+  }
   
   @media only screen and (max-width: 770px) {
     .container {

@@ -34,6 +34,9 @@ class App extends React.Component {
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Cards data={data} />
         <Chart data={data} country={country} /> 
+        <div class="footer">
+        <p>Made with <span role="img" aria-label="love">❤️</span> by <a href="https://vidhimody.netlify.app">Vidhi Mody</a></p>
+        </div>
       </div>
     );
   }
